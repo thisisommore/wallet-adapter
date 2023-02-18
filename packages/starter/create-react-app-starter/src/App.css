@@ -4,3 +4,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.modal {
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  top:50%;
+  left:50%;
+  background: #fff;
+  z-index:10;
+  transform: translate(-50%,-50%);
+}
